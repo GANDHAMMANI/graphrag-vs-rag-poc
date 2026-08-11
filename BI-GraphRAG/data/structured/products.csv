@@ -1,0 +1,22 @@
+id,name,category,price
+prod_1,Insight Dashboard,Analytics,16313.77
+prod_2,Metrics Pro,Analytics,11701.0
+prod_3,DataPulse Analytics,Analytics,23259.95
+prod_4,TrendScope,Analytics,23424.49
+prod_5,CloudCore Compute,Cloud Infrastructure,727.23
+prod_6,ScaleStack Storage,Cloud Infrastructure,15717.4
+prod_7,EdgeSync CDN,Cloud Infrastructure,14292.34
+prod_8,VaultSecure Backup,Cloud Infrastructure,2948.54
+prod_9,TeamSync Hub,Collaboration,13671.04
+prod_10,ConnectBoard,Collaboration,12893.18
+prod_11,FlowChat,Collaboration,3744.19
+prod_12,MeetSpace Pro,Collaboration,9049.72
+prod_13,ShieldNet Firewall,Security,2184.39
+prod_14,IdentityGuard SSO,Security,6483.97
+prod_15,ThreatWatch Monitor,Security,7481.19
+prod_16,LeadTrack CRM,CRM,11234.52
+prod_17,PipelineIQ,CRM,13807.84
+prod_18,CustomerLens,CRM,7910.67
+prod_19,Premium Support Plan,Support & Services,24603.41
+prod_20,Onboarding Package,Support & Services,20272.95
+prod_21,Custom Integration Services,Support & Services,13458.05

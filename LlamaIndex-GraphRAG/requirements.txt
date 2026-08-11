@@ -1,0 +1,10 @@
+llama-index-core
+llama-index-graph-stores-neo4j
+llama-index-llms-groq
+llama-index-embeddings-huggingface
+llama-index-readers-file
+python-dotenv
+pydantic-settings
+groq
+neo4j
+pandas

@@ -1,0 +1,16 @@
+﻿.env
+.env.*
+!.env.example
+
+*.key
+*.pem
+.groq_keys.txt
+
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+.DS_Store
+
+*.log

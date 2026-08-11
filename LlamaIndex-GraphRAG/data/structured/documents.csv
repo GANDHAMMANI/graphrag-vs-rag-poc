@@ -1,0 +1,14 @@
+filename,doc_type,has_table,is_scanned,mentioned_employee_ids,mentioned_customer_ids,mentioned_product_ids,mentioned_department_ids,mentioned_region_ids
+qbr_01_sales.pdf,quarterly_business_review,True,False,emp_2;emp_26,cust_44;cust_66,prod_1;prod_11;prod_3,dept_1,region_2
+qbr_02_customer_success.pdf,quarterly_business_review,True,False,emp_34;emp_7,cust_49;cust_83,prod_1;prod_21;prod_6,dept_6,region_3
+qbr_03_marketing.pdf,quarterly_business_review,True,False,emp_33;emp_4,cust_67;cust_82,prod_16;prod_3;prod_7,dept_3,region_4
+qbr_04_product.pdf,quarterly_business_review,False,False,emp_29;emp_8,cust_37;cust_83,prod_10;prod_3;prod_6,dept_7,region_6
+qbr_05_engineering.pdf,quarterly_business_review,False,False,emp_3;emp_46,cust_35;cust_40,prod_2;prod_3;prod_9,dept_2,region_3
+memo_01_joseph_schaefer.pdf,internal_memo,False,False,emp_29;emp_8,,,dept_7,
+memo_02_jennifer_cortez.pdf,internal_memo,False,False,emp_2;emp_5;emp_54,,,dept_1;dept_4,
+memo_03_trevor_campos.pdf,internal_memo,False,False,emp_43;emp_7,,,dept_6,
+memo_04_julie_patterson.pdf,internal_memo,False,False,emp_21;emp_4;emp_40,,,dept_3;dept_6,
+meeting_notes_01_jason_daniels_scanned.pdf,customer_meeting_notes,False,True,emp_39,cust_62,prod_2;prod_9,dept_1,region_1
+meeting_notes_02_courtney_keller.pdf,customer_meeting_notes,False,False,emp_34,cust_40,prod_16;prod_5,dept_6,region_2
+meeting_notes_03_john_lewis.pdf,customer_meeting_notes,False,False,emp_49,cust_17,prod_16;prod_6;prod_9,dept_1,region_2
+meeting_notes_04_patricia_marshall.pdf,customer_meeting_notes,False,False,emp_21,cust_80,prod_15;prod_8,dept_6,region_5

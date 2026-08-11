@@ -1,0 +1,46 @@
+# ── Secrets / credentials ────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+.groq_keys.txt
+*Neo4j-*-Created-*.txt
+
+# ── Python ───────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ── Virtual environments ────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Local databases / vector stores ────────────────────────────────────
+chroma_db/
+*.sqlite3
+*.db
+
+# ── Claude Code / AI assistant local config ────────────────────────────
+.claude/
+
+# ── IDE / editor ────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS files ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────────────────────────────
+*.log
+
+# ── Jupyter checkpoints (if any notebooks are added later) ─────────────
+.ipynb_checkpoints/

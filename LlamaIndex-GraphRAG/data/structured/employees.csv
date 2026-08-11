@@ -1,0 +1,55 @@
+id,name,email,job_title,department_id,manager_id,hire_date
+emp_1,Donald Garcia,donald.garcia@rodriguez.com,Chief Executive Officer,dept_1,,2005-03-01
+emp_2,Joy Gardner,joy.gardner@rodriguez.com,Head of Sales,dept_1,emp_1,2006-02-21
+emp_3,Brittany Johnson,brittany.johnson@rodriguez.com,Head of Engineering,dept_2,emp_1,2005-05-27
+emp_4,Clayton Hall,clayton.hall@rodriguez.com,Head of Marketing,dept_3,emp_1,2005-04-12
+emp_5,Carolyn Hoffman,carolyn.hoffman@rodriguez.com,Head of Finance,dept_4,emp_1,2005-08-18
+emp_6,Jennifer Miles,jennifer.miles@rodriguez.com,Head of HR,dept_5,emp_1,2005-08-03
+emp_7,Robert Cole,robert.cole@rodriguez.com,Head of Customer Success,dept_6,emp_1,2005-07-23
+emp_8,Joshua Booth,joshua.booth@rodriguez.com,Head of Product,dept_7,emp_1,2005-06-10
+emp_9,Katherine Moore,katherine.moore@rodriguez.com,Senior Financial Analyst,dept_4,emp_5,2009-11-11
+emp_10,Roberto Ramirez,roberto.ramirez@rodriguez.com,Senior Marketing Manager,dept_3,emp_4,2007-09-23
+emp_11,Jason Gallagher,jason.gallagher@rodriguez.com,Senior Account Executive,dept_1,emp_2,2007-06-13
+emp_12,Curtis James,curtis.james@rodriguez.com,Software Engineer,dept_2,emp_3,2005-08-19
+emp_13,Michael Cooper,michael.cooper@rodriguez.com,Senior Marketing Manager,dept_3,emp_4,2009-01-01
+emp_14,Joseph Williams,joseph.williams@rodriguez.com,Product Analyst,dept_7,emp_8,2006-10-04
+emp_15,Stephen Martinez,stephen.martinez@rodriguez.com,Customer Success Manager,dept_6,emp_7,2010-03-06
+emp_16,Sandra Miller,sandra.miller@rodriguez.com,Account Executive,dept_1,emp_11,2007-02-12
+emp_17,Kelly Fuller,kelly.fuller@rodriguez.com,Senior Software Engineer,dept_2,emp_3,2009-10-06
+emp_18,Nicole Ward,nicole.ward@rodriguez.com,Senior Software Engineer,dept_2,emp_3,2007-08-13
+emp_19,James Jones,james.jones@rodriguez.com,Account Executive,dept_1,emp_11,2008-02-25
+emp_20,Donna Mejia,donna.mejia@rodriguez.com,Financial Analyst,dept_4,emp_5,2006-05-30
+emp_21,Tracie Wyatt,tracie.wyatt@rodriguez.com,Senior CS Manager,dept_6,emp_7,2007-04-14
+emp_22,Michelle James,michelle.james@rodriguez.com,HR Coordinator,dept_5,emp_6,2010-07-02
+emp_23,Shawn Flowers,shawn.flowers@rodriguez.com,Software Engineer,dept_2,emp_17,2009-06-07
+emp_24,Francisco Kelly,francisco.kelly@rodriguez.com,Senior Financial Analyst,dept_4,emp_5,2006-02-27
+emp_25,Elizabeth Miles,elizabeth.miles@rodriguez.com,Software Engineer,dept_2,emp_18,2007-08-13
+emp_26,Frances Jones,frances.jones@rodriguez.com,Account Executive,dept_1,emp_11,2007-05-26
+emp_27,Cynthia Ferguson,cynthia.ferguson@rodriguez.com,Marketing Specialist,dept_3,emp_4,2008-05-09
+emp_28,John Ford,john.ford@rodriguez.com,Account Executive,dept_1,emp_2,2007-09-26
+emp_29,Joseph Schaefer,joseph.schaefer@rodriguez.com,Product Analyst,dept_7,emp_8,2006-10-02
+emp_30,Hailey Robinson,hailey.robinson@rodriguez.com,Senior Product Manager,dept_7,emp_8,2009-10-30
+emp_31,Mark Tate,mark.tate@rodriguez.com,Senior Financial Analyst,dept_4,emp_5,2010-04-27
+emp_32,Brian Underwood,brian.underwood@rodriguez.com,Account Executive,dept_1,emp_11,2008-06-21
+emp_33,Linda Morales,linda.morales@rodriguez.com,Marketing Specialist,dept_3,emp_13,2007-02-15
+emp_34,Carl Gentry,carl.gentry@rodriguez.com,Customer Success Manager,dept_6,emp_21,2009-03-30
+emp_35,Ashley Robbins,ashley.robbins@rodriguez.com,Senior Account Executive,dept_1,emp_2,2009-05-15
+emp_36,Jason Porter,jason.porter@rodriguez.com,Senior Marketing Manager,dept_3,emp_4,2008-08-21
+emp_37,Nicole Day,nicole.day@rodriguez.com,Customer Success Manager,dept_6,emp_21,2007-11-17
+emp_38,Douglas Taylor,douglas.taylor@rodriguez.com,Marketing Specialist,dept_3,emp_10,2009-08-06
+emp_39,Julie Ryan,julie.ryan@rodriguez.com,Account Executive,dept_1,emp_11,2010-08-31
+emp_40,Julie Patterson,julie.patterson@rodriguez.com,Customer Success Manager,dept_6,emp_21,2008-04-06
+emp_41,Brandy Cox,brandy.cox@rodriguez.com,Product Analyst,dept_7,emp_8,2009-05-06
+emp_42,Wendy Taylor,wendy.taylor@rodriguez.com,Financial Analyst,dept_4,emp_24,2009-04-21
+emp_43,Trevor Campos,trevor.campos@rodriguez.com,Senior CS Manager,dept_6,emp_7,2005-08-28
+emp_44,Michelle Hernandez,michelle.hernandez@rodriguez.com,Financial Analyst,dept_4,emp_5,2007-03-10
+emp_45,Ernest Becker,ernest.becker@rodriguez.com,Financial Analyst,dept_4,emp_5,2006-04-22
+emp_46,Candace Cruz,candace.cruz@rodriguez.com,Software Engineer,dept_2,emp_17,2008-04-30
+emp_47,Caitlin Mcdonald,caitlin.mcdonald@rodriguez.com,Software Engineer,dept_2,emp_3,2008-07-04
+emp_48,John Tran,john.tran@rodriguez.com,Marketing Specialist,dept_3,emp_10,2008-09-19
+emp_49,Sherri Frazier,sherri.frazier@rodriguez.com,Account Executive,dept_1,emp_2,2011-02-24
+emp_50,Danny Dyer,danny.dyer@rodriguez.com,Senior HR Business Partner,dept_5,emp_6,2005-12-29
+emp_51,Karen Mack,karen.mack@rodriguez.com,Software Engineer,dept_2,emp_18,2005-12-04
+emp_52,Matthew Carter,matthew.carter@rodriguez.com,Senior HR Business Partner,dept_5,emp_6,2009-12-07
+emp_53,Eric Smith,eric.smith@rodriguez.com,Marketing Specialist,dept_3,emp_36,2006-01-29
+emp_54,Jennifer Cortez,jennifer.cortez@rodriguez.com,Senior Account Executive,dept_1,emp_2,2011-02-11

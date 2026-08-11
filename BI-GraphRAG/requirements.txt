@@ -1,0 +1,39 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+groq>=1.6.0                  # LLM extraction + answer generation (AsyncGroq included)
+neo4j>=6.0.0                 # Graph database driver
+pydantic-settings>=2.0.0     # Validated config from .env
+python-dotenv>=1.0.0         # .env loading for Streamlit / CLI
+
+# ── Embeddings + Reranking ────────────────────────────────────────────────────
+sentence-transformers>=3.0.0 # Entity embeddings (all-MiniLM-L6-v2) + cross-encoder reranker
+
+# ── PDF ingestion ─────────────────────────────────────────────────────────────
+PyMuPDF>=1.24.0              # Fast text/table/heading extraction (fitz)
+pdfplumber>=0.11.0           # Fallback table-aware extractor
+
+# ── OCR (image uploads + embedded images in PDFs) ─────────────────────────────
+Pillow>=10.0.0               # Image handling
+pytesseract>=0.3.10          # Used by PyMuPDF hybrid for embedded image OCR
+# NOTE: Tesseract binary still required for pytesseract:
+#   Windows  → https://github.com/UB-Mannheim/tesseract/wiki
+#   Ubuntu   → sudo apt install tesseract-ocr
+#   Mac      → brew install tesseract
+# Scanned PDFs are handled by unstructured[pdf] (which calls Tesseract internally)
+
+# ── API ───────────────────────────────────────────────────────────────────────
+fastapi>=0.115.0             # REST API framework
+uvicorn[standard]>=0.30.0    # ASGI server (includes websockets + watchfiles for --reload)
+python-multipart>=0.0.9      # File upload support for FastAPI
+
+# ── Data processing ───────────────────────────────────────────────────────────
+pandas>=2.0.0                # Table → markdown in PyMuPDF path
+tabulate>=0.9.0              # Required by pandas .to_markdown()
+
+# ── UI (optional — only needed for app.py Streamlit interface) ────────────────
+streamlit>=1.35.0
+
+# ── Optional: unstructured (hi_res OCR, images, tables — strongly recommended for hybrid PDFs) ──
+# pip install "unstructured[pdf]"
+# unstructured[pdf]>=0.15.0
+# NOTE: for best image results also install: pip install "unstructured[pdf,local-inference]"
+#       which adds detectron2 for layout detection (requires torch).

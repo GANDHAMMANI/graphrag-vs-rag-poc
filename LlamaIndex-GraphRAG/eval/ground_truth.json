@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "category": "relational",
+    "question": "Who is the CEO of Rodriguez, Figueroa and Sanchez?",
+    "ground_truth": "Donald Garcia is the Chief Executive Officer of Rodriguez, Figueroa and Sanchez.",
+    "source": "employees.csv, company.csv"
+  },
+  {
+    "id": 2,
+    "category": "relational",
+    "question": "Who is the Head of Sales?",
+    "ground_truth": "Joy Gardner is the Head of Sales, reporting to CEO Donald Garcia.",
+    "source": "employees.csv"
+  },
+  {
+    "id": 3,
+    "category": "relational",
+    "question": "Who is the Head of Engineering?",
+    "ground_truth": "Brittany Johnson is the Head of Engineering, reporting to CEO Donald Garcia.",
+    "source": "employees.csv"
+  },
+  {
+    "id": 4,
+    "category": "relational",
+    "question": "What industry is Rodriguez, Figueroa and Sanchez in, and when was it founded?",
+    "ground_truth": "Rodriguez, Figueroa and Sanchez is in the Enterprise Software industry, founded in 2005.",
+    "source": "company.csv"
+  },
+  {
+    "id": 5,
+    "category": "relational",
+    "question": "How many departments does the company have, and what are they?",
+    "ground_truth": "The company has 7 departments: Sales, Engineering, Marketing, Finance, Human Resources, Customer Success, and Product.",
+    "source": "departments.csv"
+  },
+  {
+    "id": 6,
+    "category": "relational",
+    "question": "What is the price of TrendScope and what category is it in?",
+    "ground_truth": "TrendScope is priced at $23,424.49 and belongs to the Analytics category.",
+    "source": "products.csv"
+  },
+  {
+    "id": 7,
+    "category": "relational",
+    "question": "What products fall under the Security category?",
+    "ground_truth": "The Security category includes ShieldNet Firewall, IdentityGuard SSO, and ThreatWatch Monitor.",
+    "source": "products.csv"
+  },
+  {
+    "id": 8,
+    "category": "relational",
+    "question": "What company does customer John Lewis work for and which region is he in?",
+    "ground_truth": "John Lewis works for Barrera-Martin, located in the Europe region.",
+    "source": "customers.csv, regions.csv"
+  },
+  {
+    "id": 9,
+    "category": "relational",
+    "question": "Who manages Sherri Frazier and what is her job title?",
+    "ground_truth": "Sherri Frazier's job title is Account Executive, and she is managed by Joy Gardner.",
+    "source": "employees.csv"
+  },
+  {
+    "id": 10,
+    "category": "relational",
+    "question": "What products were included in the order placed on 2020-10-13 by customer cust_71, and what was the total order amount?",
+    "ground_truth": "The order included TeamSync Hub (quantity 1, $13,671.04) and TrendScope (quantity 5, $117,122.45), for a total of $130,793.49. The order was handled by employee John Ford.",
+    "source": "orders.csv, order_items.csv, employees.csv"
+  },
+  {
+    "id": 11,
+    "category": "narrative",
+    "question": "What did Courtney Keller discuss in her meeting with Carl Gentry?",
+    "ground_truth": "Courtney Keller discussed CloudCore Compute and LeadTrack CRM, provided feedback on recent performance, and asked about roadmap plans for the next release. She indicated Murphy-Lin plans to make a decision before the end of the quarter.",
+    "source": "meeting_notes_02_courtney_keller.pdf"
+  },
+  {
+    "id": 12,
+    "category": "narrative",
+    "question": "What did John Lewis discuss in his meeting with Sherri Frazier?",
+    "ground_truth": "John Lewis discussed ScaleStack Storage, TeamSync Hub, and LeadTrack CRM, provided feedback on recent performance, and asked about roadmap plans for the next release. He referenced an order dated 2019-05-17 as the basis for the renewal discussion.",
+    "source": "meeting_notes_03_john_lewis.pdf"
+  },
+  {
+    "id": 13,
+    "category": "narrative",
+    "question": "What products were discussed in Patricia Marshall's meeting with Tracie Wyatt?",
+    "ground_truth": "The meeting covered VaultSecure Backup and ThreatWatch Monitor. Patricia Marshall provided feedback on recent performance and asked about roadmap plans.",
+    "source": "meeting_notes_04_patricia_marshall.pdf"
+  },
+  {
+    "id": 14,
+    "category": "narrative",
+    "question": "Who was promoted according to memo_01, and to what role?",
+    "ground_truth": "Joseph Schaefer was promoted from Product Analyst to Senior Product Analyst, continuing to report to Joshua Booth, Head of Product.",
+    "source": "memo_01_joseph_schaefer.pdf"
+  },
+  {
+    "id": 15,
+    "category": "narrative",
+    "question": "Which department did Jennifer Cortez transfer to, and who leads that department?",
+    "ground_truth": "Jennifer Cortez transferred from Sales to Finance, joining the team led by Carolyn Hoffman, Head of Finance.",
+    "source": "memo_02_jennifer_cortez.pdf"
+  },
+  {
+    "id": 16,
+    "category": "narrative",
+    "question": "Who was promoted to Senior CS Manager per the internal memo, and who do they report to?",
+    "ground_truth": "Trevor Campos was promoted to Senior CS Manager and continues to report to Robert Cole, Head of Customer Success.",
+    "source": "memo_03_trevor_campos.pdf"
+  },
+  {
+    "id": 17,
+    "category": "narrative",
+    "question": "Which department did Julie Patterson transfer to, and who leads it?",
+    "ground_truth": "Julie Patterson transferred from Customer Success to Marketing, joining the team led by Clayton Hall, Head of Marketing.",
+    "source": "memo_04_julie_patterson.pdf"
+  },
+  {
+    "id": 18,
+    "category": "narrative",
+    "question": "Which region drove Sales team performance in Q1 2026 per the QBR?",
+    "ground_truth": "The Europe region was highlighted as a key driver of Sales performance in Q1 2026.",
+    "source": "qbr_01_sales.pdf"
+  },
+  {
+    "id": 19,
+    "category": "narrative",
+    "question": "Who did the Sales QBR credit for outstanding contributions in Q1 2026?",
+    "ground_truth": "Frances Jones, Account Executive, was recognized for outstanding contributions during the quarter.",
+    "source": "qbr_01_sales.pdf"
+  },
+  {
+    "id": 20,
+    "category": "narrative",
+    "question": "What products were part of the Q3 2025 Marketing team's featured deals?",
+    "ground_truth": "The featured deals were ThreatWatch Monitor with Lewis-Salinas (4 units, $29,924.76), ConnectBoard with Alvarado, Miller and Patterson (3 units, $38,679.54), and Premium Support Plan with Alvarado, Miller and Patterson (1 unit, $24,603.41).",
+    "source": "qbr_03_marketing.pdf"
+  },
+  {
+    "id": 21,
+    "category": "mixed",
+    "question": "What company does John Lewis represent, and what products did he discuss in his meeting with Sherri Frazier?",
+    "ground_truth": "John Lewis represents Barrera-Martin. In his meeting with Sherri Frazier, they discussed ScaleStack Storage, TeamSync Hub, and LeadTrack CRM.",
+    "source": "customers.csv + meeting_notes_03_john_lewis.pdf"
+  },
+  {
+    "id": 22,
+    "category": "mixed",
+    "question": "What order does the John Lewis meeting reference, and what was its status and value in the order records?",
+    "ground_truth": "The meeting references an order dated 2019-05-17, which corresponds to order_82: status Pending, total amount $99,399.84.",
+    "source": "meeting_notes_03_john_lewis.pdf + orders.csv"
+  },
+  {
+    "id": 23,
+    "category": "mixed",
+    "question": "Who is the Head of Customer Success mentioned in the Customer Success QBR, and which region did the team perform well in?",
+    "ground_truth": "Robert Cole is the Head of Customer Success. The APAC region was highlighted as a key driver of performance in Q2 2026.",
+    "source": "qbr_02_customer_success.pdf + employees.csv"
+  },
+  {
+    "id": 24,
+    "category": "mixed",
+    "question": "Which employee was recognized in the Customer Success QBR, and what is their job title per the employee records?",
+    "ground_truth": "Carl Gentry was recognized for outstanding contributions. His job title in the employee records is Customer Success Manager.",
+    "source": "qbr_02_customer_success.pdf + employees.csv"
+  },
+  {
+    "id": 25,
+    "category": "mixed",
+    "question": "Trevor Campos was promoted per the internal memo — what is his job title and department per the employee records?",
+    "ground_truth": "Trevor Campos's job title is Senior CS Manager, in the Customer Success department.",
+    "source": "memo_03_trevor_campos.pdf + employees.csv + departments.csv"
+  },
+  {
+    "id": 26,
+    "category": "mixed",
+    "question": "What product did Fletcher Inc purchase according to the Sales QBR, and what customer record matches Fletcher Inc?",
+    "ground_truth": "Fletcher Inc purchased MeetSpace Pro (4 units, $36,198.88). The matching customer record is Steven Lee, in the Middle East & Africa region.",
+    "source": "qbr_01_sales.pdf + customers.csv"
+  },
+  {
+    "id": 27,
+    "category": "mixed",
+    "question": "Who prepared the Product QBR, and who do they report to per the org chart?",
+    "ground_truth": "Joshua Booth, Head of Product, prepared the Product QBR. He reports to Donald Garcia, the CEO.",
+    "source": "qbr_04_product.pdf + employees.csv"
+  },
+  {
+    "id": 28,
+    "category": "mixed",
+    "question": "What product did Peters-Black renew per the Product QBR, and what customer record matches Peters-Black?",
+    "ground_truth": "Peters-Black renewed DataPulse Analytics. The matching customer record is Spencer Haynes, in the APAC region.",
+    "source": "qbr_04_product.pdf + customers.csv"
+  },
+  {
+    "id": 29,
+    "category": "mixed",
+    "question": "Jennifer Cortez transfers to Finance per the memo — who was her manager before the move, per the employee records?",
+    "ground_truth": "Before the move, Jennifer Cortez reported to Joy Gardner in Sales.",
+    "source": "memo_02_jennifer_cortez.pdf + employees.csv"
+  },
+  {
+    "id": 30,
+    "category": "mixed",
+    "question": "Julie Patterson transfers to Marketing per the memo — what is her job title and who was her manager before the move, per the employee records?",
+    "ground_truth": "Julie Patterson's job title is Customer Success Manager, and her manager before the move was Tracie Wyatt.",
+    "source": "memo_04_julie_patterson.pdf + employees.csv"
+  }
+]

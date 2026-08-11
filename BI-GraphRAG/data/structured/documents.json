@@ -1,0 +1,284 @@
+[
+  {
+    "filename": "qbr_01_sales.pdf",
+    "doc_type": "quarterly_business_review",
+    "has_table": true,
+    "is_scanned": false,
+    "mentioned_employee_ids": [
+      "emp_2",
+      "emp_26"
+    ],
+    "mentioned_customer_ids": [
+      "cust_44",
+      "cust_66"
+    ],
+    "mentioned_product_ids": [
+      "prod_1",
+      "prod_11",
+      "prod_3"
+    ],
+    "mentioned_department_ids": [
+      "dept_1"
+    ],
+    "mentioned_region_ids": [
+      "region_2"
+    ]
+  },
+  {
+    "filename": "qbr_02_customer_success.pdf",
+    "doc_type": "quarterly_business_review",
+    "has_table": true,
+    "is_scanned": false,
+    "mentioned_employee_ids": [
+      "emp_34",
+      "emp_7"
+    ],
+    "mentioned_customer_ids": [
+      "cust_49",
+      "cust_83"
+    ],
+    "mentioned_product_ids": [
+      "prod_1",
+      "prod_21",
+      "prod_6"
+    ],
+    "mentioned_department_ids": [
+      "dept_6"
+    ],
+    "mentioned_region_ids": [
+      "region_3"
+    ]
+  },
+  {
+    "filename": "qbr_03_marketing.pdf",
+    "doc_type": "quarterly_business_review",
+    "has_table": true,
+    "is_scanned": false,
+    "mentioned_employee_ids": [
+      "emp_33",
+      "emp_4"
+    ],
+    "mentioned_customer_ids": [
+      "cust_67",
+      "cust_82"
+    ],
+    "mentioned_product_ids": [
+      "prod_16",
+      "prod_3",
+      "prod_7"
+    ],
+    "mentioned_department_ids": [
+      "dept_3"
+    ],
+    "mentioned_region_ids": [
+      "region_4"
+    ]
+  },
+  {
+    "filename": "qbr_04_product.pdf",
+    "doc_type": "quarterly_business_review",
+    "has_table": false,
+    "is_scanned": false,
+    "mentioned_employee_ids": [
+      "emp_29",
+      "emp_8"
+    ],
+    "mentioned_customer_ids": [
+      "cust_37",
+      "cust_83"
+    ],
+    "mentioned_product_ids": [
+      "prod_10",
+      "prod_3",
+      "prod_6"
+    ],
+    "mentioned_department_ids": [
+      "dept_7"
+    ],
+    "mentioned_region_ids": [
+      "region_6"
+    ]
+  },
+  {
+    "filename": "qbr_05_engineering.pdf",
+    "doc_type": "quarterly_business_review",
+    "has_table": false,
+    "is_scanned": false,
+    "mentioned_employee_ids": [
+      "emp_3",
+      "emp_46"
+    ],
+    "mentioned_customer_ids": [
+      "cust_35",
+      "cust_40"
+    ],
+    "mentioned_product_ids": [
+      "prod_2",
+      "prod_3",
+      "prod_9"
+    ],
+    "mentioned_department_ids": [
+      "dept_2"
+    ],
+    "mentioned_region_ids": [
+      "region_3"
+    ]
+  },
+  {
+    "filename": "memo_01_joseph_schaefer.pdf",
+    "doc_type": "internal_memo",
+    "has_table": false,
+    "is_scanned": false,
+    "mentioned_employee_ids": [
+      "emp_29",
+      "emp_8"
+    ],
+    "mentioned_customer_ids": [],
+    "mentioned_product_ids": [],
+    "mentioned_department_ids": [
+      "dept_7"
+    ],
+    "mentioned_region_ids": []
+  },
+  {
+    "filename": "memo_02_jennifer_cortez.pdf",
+    "doc_type": "internal_memo",
+    "has_table": false,
+    "is_scanned": false,
+    "mentioned_employee_ids": [
+      "emp_2",
+      "emp_5",
+      "emp_54"
+    ],
+    "mentioned_customer_ids": [],
+    "mentioned_product_ids": [],
+    "mentioned_department_ids": [
+      "dept_1",
+      "dept_4"
+    ],
+    "mentioned_region_ids": []
+  },
+  {
+    "filename": "memo_03_trevor_campos.pdf",
+    "doc_type": "internal_memo",
+    "has_table": false,
+    "is_scanned": false,
+    "mentioned_employee_ids": [
+      "emp_43",
+      "emp_7"
+    ],
+    "mentioned_customer_ids": [],
+    "mentioned_product_ids": [],
+    "mentioned_department_ids": [
+      "dept_6"
+    ],
+    "mentioned_region_ids": []
+  },
+  {
+    "filename": "memo_04_julie_patterson.pdf",
+    "doc_type": "internal_memo",
+    "has_table": false,
+    "is_scanned": false,
+    "mentioned_employee_ids": [
+      "emp_21",
+      "emp_4",
+      "emp_40"
+    ],
+    "mentioned_customer_ids": [],
+    "mentioned_product_ids": [],
+    "mentioned_department_ids": [
+      "dept_3",
+      "dept_6"
+    ],
+    "mentioned_region_ids": []
+  },
+  {
+    "filename": "meeting_notes_01_jason_daniels_scanned.pdf",
+    "doc_type": "customer_meeting_notes",
+    "has_table": false,
+    "is_scanned": true,
+    "mentioned_employee_ids": [
+      "emp_39"
+    ],
+    "mentioned_customer_ids": [
+      "cust_62"
+    ],
+    "mentioned_product_ids": [
+      "prod_2",
+      "prod_9"
+    ],
+    "mentioned_department_ids": [
+      "dept_1"
+    ],
+    "mentioned_region_ids": [
+      "region_1"
+    ]
+  },
+  {
+    "filename": "meeting_notes_02_courtney_keller.pdf",
+    "doc_type": "customer_meeting_notes",
+    "has_table": false,
+    "is_scanned": false,
+    "mentioned_employee_ids": [
+      "emp_34"
+    ],
+    "mentioned_customer_ids": [
+      "cust_40"
+    ],
+    "mentioned_product_ids": [
+      "prod_16",
+      "prod_5"
+    ],
+    "mentioned_department_ids": [
+      "dept_6"
+    ],
+    "mentioned_region_ids": [
+      "region_2"
+    ]
+  },
+  {
+    "filename": "meeting_notes_03_john_lewis.pdf",
+    "doc_type": "customer_meeting_notes",
+    "has_table": false,
+    "is_scanned": false,
+    "mentioned_employee_ids": [
+      "emp_49"
+    ],
+    "mentioned_customer_ids": [
+      "cust_17"
+    ],
+    "mentioned_product_ids": [
+      "prod_16",
+      "prod_6",
+      "prod_9"
+    ],
+    "mentioned_department_ids": [
+      "dept_1"
+    ],
+    "mentioned_region_ids": [
+      "region_2"
+    ]
+  },
+  {
+    "filename": "meeting_notes_04_patricia_marshall.pdf",
+    "doc_type": "customer_meeting_notes",
+    "has_table": false,
+    "is_scanned": false,
+    "mentioned_employee_ids": [
+      "emp_21"
+    ],
+    "mentioned_customer_ids": [
+      "cust_80"
+    ],
+    "mentioned_product_ids": [
+      "prod_15",
+      "prod_8"
+    ],
+    "mentioned_department_ids": [
+      "dept_6"
+    ],
+    "mentioned_region_ids": [
+      "region_5"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "GraphRAG": {
+    "faithfulness": 0.862,
+    "answer_relevancy": 0.511,
+    "context_precision": 0.272,
+    "context_recall": 0.547
+  },
+  "Traditional RAG (ChromaDB)": {
+    "faithfulness": 0.728,
+    "answer_relevancy": 0.484,
+    "context_precision": 0.596,
+    "context_recall": 0.583
+  }
+}
