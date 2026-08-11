@@ -14,8 +14,9 @@ Two projects are included in this repository:
 - **[`LlamaIndex-GraphRAG/`](./LlamaIndex-GraphRAG)** — The same comparison rebuilt using LlamaIndex's official GraphRAG pattern (rich entity/relationship extraction, Leiden community clustering, community-summary retrieval).
 
 Both projects use the same underlying dataset and the same 30-question ground truth, scored with [RAGAs](https://github.com/explodinggradients/ragas) using an LLM judge (`llama-3.3-70b-versatile`).
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4bdc2068-ff50-4baf-bbe8-504571d793d4" />
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/81d7b390-5d34-4395-9823-9a0a86f32470" />
+
 
 
 **How the two GraphRAG approaches actually differ:** the difference isn't just extraction quality — it's *when* and *how* each system reads the graph at answer time.
@@ -37,8 +38,7 @@ In short: one explores the graph on demand; the other consults notes written abo
 | Unstructured (PDF) | Meeting notes, quarterly business reviews (QBRs) |
 | Ground truth | 30 hand-written questions spanning relational lookups and narrative facts |
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4bdc2068-ff50-4baf-bbe8-504571d793d4" />
-
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/81d7b390-5d34-4395-9823-9a0a86f32470" />
 
 ### Systems compared
 
