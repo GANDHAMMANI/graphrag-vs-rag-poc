@@ -26,7 +26,7 @@ Both projects use the same underlying dataset and the same 30-question ground tr
 
 In short: one explores the graph on demand; the other consults notes written about the graph in advance.
 
----
+
 
 ## 2. Methodology
 
@@ -99,7 +99,6 @@ To avoid this, judge calls were rotated across a pool of API keys rather than re
 | Context Precision | Proportion of retrieved context that is actually relevant |
 | Context Recall | Proportion of required ground-truth facts that were successfully retrieved |
 
----
 
 ## 3. Results
 
@@ -139,7 +138,7 @@ This progression is why the final numbers above should not be read as "LlamaInde
 
 *Illustrative example  not drawn from the actual dataset. Shown to explain the mechanism, not to represent an actual retrieval result.*
 
----
+
 
 ## 4. Issues identified and resolved
 
@@ -159,7 +158,7 @@ Two additional implementation details worth noting, though they did not directly
 - **Concurrent ingestion.** PDF extraction and LLM-based triple/entity extraction were parallelized across documents during ingestion, reducing total ingestion time substantially compared to sequential processing  relevant mainly for reproducing these results faster, not for retrieval quality itself.
 - **Vector store placement experiment.** A side experiment compared storing entity embeddings natively on Neo4j graph nodes (via Neo4j's vector index) against storing them in a separate ChromaDB collection, to evaluate seed-entity lookup latency under each approach. This was a latency comparison only and did not factor into the quality metrics reported in Section 3.
 
----
+
 
 ## 5. Limitations
 
@@ -168,7 +167,6 @@ Two additional implementation details worth noting, though they did not directly
 - A secondary benchmark comparing seed-entity retrieval strategies (keyword-only, semantic-only, hybrid) was inconclusive due to LLM judge API rate limits during scoring and is not included in the results above.
 - This is a proof-of-concept comparison, not a production readiness assessment.
 
----
 
 ## 6. Repository structure
 
@@ -180,7 +178,7 @@ Two additional implementation details worth noting, though they did not directly
 ├── LlamaIndex-GraphRAG/      LlamaIndex GraphRAG implementation
 │   └── README.md             Setup and run instructions
 └── eval-results/             Scored CSV/JSON output and summary tables
-```
+
 
 Each subproject README contains setup and run instructions for reproducing these results.
 
