@@ -178,10 +178,6 @@ Two additional implementation details worth noting, though they did not directly
 ├── LlamaIndex-GraphRAG/      LlamaIndex GraphRAG implementation
 │   └── README.md             Setup and run instructions
 └── eval-results/             Scored CSV/JSON output and summary tables
-
+```
 
 Each subproject README contains setup and run instructions for reproducing these results.
-
----
-
-
