@@ -186,9 +186,4 @@ Each subproject README contains setup and run instructions for reproducing these
 
 ---
 
-## 7. Recommended next steps
 
-- Apply a relevance threshold to Custom GraphRAG's fact retrieval, matching the filtering already used in Traditional RAG.
-- Complete the seed-strategy retrieval benchmark (keyword vs. semantic vs. hybrid) once judge API quota allows.
-- Repeat evaluation runs to distinguish genuine performance differences from judge-model variance.
-- Evaluate against a larger, real-world dataset where multi-hop reasoning and entity disambiguation have more opportunity to matter.
