@@ -30,7 +30,7 @@ retriever = get_retriever()
 
 question = st.text_input(
     "Ask a question",
-    placeholder="e.g. Which departments submitted NAAC accreditation documents?",
+    placeholder="Who is the Head of Sales?",
 )
 ask = st.button("Ask", type="primary")
 
