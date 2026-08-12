@@ -1,6 +1,6 @@
 # GraphRAG vs Traditional RAG: A Comparative Evaluation
 
-A comparative study of three retrieval-augmented generation approaches — a custom-built GraphRAG pipeline, a traditional chunk-based RAG pipeline, and a framework-based GraphRAG implementation (LlamaIndex) — evaluated on the same dataset and question set.
+A comparative study of three retrieval-augmented generation approaches  a custom-built GraphRAG pipeline, a traditional chunk-based RAG pipeline, and a framework-based GraphRAG implementation (LlamaIndex) evaluated on the same dataset and question set.
 
 > **Scope note**: This evaluation was conducted on a small, synthetic business dataset (30 ground-truth questions). Results should be treated as directional findings from a proof-of-concept, not as a production benchmark.
 
@@ -82,11 +82,11 @@ Two consistency measures were applied so the comparison isolated retrieval strat
 
 ### Provenance and citations
 
-Every retrieved fact (GraphRAG) or chunk (Traditional RAG) carries its source document, page number, and — where available — bounding box coordinates through to the API response, so answers can be traced back to the exact location in the source document they came from. This was implemented consistently across both lanes rather than added to one and not the other.
+Every retrieved fact (GraphRAG) or chunk (Traditional RAG) carries its source document, page number, and where available bounding box coordinates through to the API response, so answers can be traced back to the exact location in the source document they came from. This was implemented consistently across both lanes rather than added to one and not the other.
 
 ### Evaluation infrastructure: judge API key rotation
 
-RAGAs scoring is judge-LLM-call-intensive: 30 questions × 4 metrics × 3 systems, plus retries on transient failures, adds up to several hundred Groq API calls per full evaluation pass — each carrying a non-trivial amount of context (the retrieved facts/chunks plus the ground truth). Groq's free tier enforces both a per-minute request cap (~30 requests/minute) and a per-key daily token budget, either of which a single API key can exhaust partway through a full scoring run.
+RAGAs scoring is judge-LLM-call-intensive: 30 questions × 4 metrics × 3 systems, plus retries on transient failures, adds up to several hundred Groq API calls per full evaluation pass — each carrying a non-trivial amount of context (the retrieved facts/chunks plus the ground truth). Groq's free tier enforces both a per-minute request cap (30 requests/minute) and a per-key daily token budget, either of which a single API key can exhaust partway through a full scoring run.
 
 To avoid this, judge calls were rotated across a pool of API keys rather than relying on one. This served two purposes: it pooled the available request/token budget across the whole run instead of a single key's limit, and it made it practical to use the strongest available judge model (`llama-3.3-70b-versatile`) for scoring consistency, rather than defaulting to a smaller model purely to conserve one key's quota. Key rotation reduced — but did not eliminate — rate-limit failures; the retrieval-strategy benchmark scoring run (Section 5) still hit exhausted quota mid-run, which is why those results are not included above.
 
@@ -117,7 +117,7 @@ To avoid this, judge calls were rotated across a pool of API keys rather than re
 
 - **Faithfulness** was comparable across all three systems (0.79–0.87), with no clear structural advantage for any single approach.
 - **Answer Relevancy** favored Traditional RAG (0.532) over both graph-based approaches, which scored nearly identically to each other (0.341 / 0.345).
-- **Context Precision** was the largest and most consistent gap: both graph-based systems retrieved a higher proportion of low-relevance context than Traditional RAG, with LlamaIndex GraphRAG (0.400) narrowing — but not closing — the gap seen in Custom GraphRAG (0.190).
+- **Context Precision** was the largest and most consistent gap: both graph-based systems retrieved a higher proportion of low-relevance context than Traditional RAG, with LlamaIndex GraphRAG (0.400) narrowing  but not closing the gap seen in Custom GraphRAG (0.190).
 - **Context Recall** was also comparable between the two graph-based systems (0.389 each), both trailing Traditional RAG (0.578).
 
 **Overall finding**: across both graph-based implementations, retrieving discrete facts/triples consistently underperformed retrieving full text chunks on Context Precision, independent of extraction richness or retrieval strategy (hop-traversal vs. community summarization). This suggests the gap is at least partly structural to fact-based context rather than attributable to implementation choices alone.
